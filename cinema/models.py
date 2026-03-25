@@ -31,7 +31,7 @@ class Actor(models.Model):
     def full_name(self) -> str:
         return f"{self.first_name} {self.last_name}"
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.full_name
 
 
